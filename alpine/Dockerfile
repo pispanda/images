@@ -1,4 +1,3 @@
-FROM scratch
+FROM arm64v8/alpine:3.14
 MAINTAINER pispanda <pispanda@163.com>
-ADD alpine-minirootfs-3.20.1-aarch64.tar.gz /
-CMD ["/bin/sh"]
+
